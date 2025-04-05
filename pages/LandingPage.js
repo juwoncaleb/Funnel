@@ -11,8 +11,8 @@ export default function LandingPage() {
         <center>
           <div className="h_head">
             <p className="hero_head">
-              Close <span className="salescall">3+ Deals</span> Every
-              Month—Without Posting on Social Media, Monthly Marketing Retainer,
+              Close <span className="salescall">3+ Deals</span> Monthly
+              —Without Posting on Social Media,<span>Paying</span> for Marketing Monthly
               or Relying Only on Referrals.
             </p>
           </div>
