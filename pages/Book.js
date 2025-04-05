@@ -67,6 +67,7 @@ export default function Review() {
           <button onClick={handleScroll} className="next_btn mt-10 mb-14">
             Book a Call
           </button>{" "}
+          
         </center>
         <InfiniteCarousel />
         <div className="caution flex justify-center gap-20">
