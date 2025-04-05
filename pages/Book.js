@@ -67,7 +67,7 @@ export default function Review() {
           <button onClick={handleScroll} className="next_btn mt-10 mb-14">
             Book a Call
           </button>{" "}
-          
+
         </center>
         <InfiniteCarousel />
         <div className="caution flex justify-center gap-20">
@@ -97,8 +97,8 @@ export default function Review() {
               <p className="steps_head text-center">Discovery</p>
             </div>
             <p className="card_txt text-center">
-              You're currently learning how we help realtors. We want you to
-              binge-watch our content and grasp our process to see if it's the
+              You are currently learning how we help realtors. We want you to
+              binge-watch our content and grasp our process to see if it is the
               right fit for you.
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function Review() {
             </div>
             <p className="card_txt text-center">
               We have a 30-45 minute call where we ask questions to understand
-              your goals and see if we're a good fit
+              your goals and see if we are a good fit
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function Review() {
               You never have to worry where your next deal is coming from?
             </h1>
             <p className="time">
-              Time is money . Let's help you spend it on closing deals!
+              Time is money . Let us help you spend it on closing deals!
             </p>
             <button onClick={handleScroll} className="next_btn mt-10 mb-14">
             Book a Call
