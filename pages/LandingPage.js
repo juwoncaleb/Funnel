@@ -10,10 +10,9 @@ export default function LandingPage() {
       <div className=" mx-auto text-center">
         <center>
           <div className="h_head">
-            <p className="hero_head">
+            <p className="hero_head"> 
               Close <span className="salescall">3+ Deals</span> Monthly
-              —Without Posting on Social Media,<span className="salescall">Paying</span> Monthly for Marketing
-              or Relying Only on Referrals.
+             Without Relying only on Referrals, Social Media,<span className="salescall">Costly</span> Marketing.
             </p>
           </div>
         </center>
