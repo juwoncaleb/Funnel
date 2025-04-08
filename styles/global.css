@@ -47,7 +47,7 @@ body {
 }
 
 .salescall {
-  color: red;
+  color: yellow;font-weight: 600;
 }
 .video {
   width: 800px;
@@ -67,19 +67,32 @@ body {
 }
 .install {
   background-color: black;
-  color: red;
+  color: yellow;
   width: 620px;
   border-radius: 7px;
   height: 100px;
   font-weight: 500;
   font-size: 25px;
 }
+.text_under{
+  text-decoration: underline;
+}
+.floating-div {
+  position: fixed;
+  bottom: 20px; /* Adjust this value as needed */
+  right: 20px;  /* Adjust this value as needed */
+  background-color: yellow;  /* You can change the background color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999; /* Ensure it stays on top of other content */
+}
 
 .button_bg {
   font-family: Montserrat;
   padding: 20px;
   width: 800px;
-  background-color: red;
+  background-color: dodgerblue;
   margin-top: 50px;
   height: 170px;
   margin-bottom: 100px;
@@ -88,8 +101,7 @@ body {
   font-family: Montserrat;
   padding: 40px;
   width: 100%;
-  background-color: red;
-  margin-top: 80px;
+  background-color:rgba(52, 52, 52, 0.403);
   color: white;
 }
 .vsl_page {
@@ -160,7 +172,13 @@ iframe {
   font-size: 35px;
   margin-bottom: 100px;
 }
-
+.hero_sub{
+  color: white;
+  font-size: 20px;
+}
+.hero_sub_div{
+  max-width: 600px;
+}
 .pastclient {
   height: 400px;
   border-radius: 10px;
@@ -261,6 +279,9 @@ iframe {
 }
 
 @media only screen and (max-width: 800px) {
+  .h_head {
+    max-width: 700px;
+  }
   .testimonila_header {
     font-family: "EB Garamond", serif;
     font-size: 48px;
@@ -291,6 +312,17 @@ iframe {
     margin-left: 50px;
     margin-right: 50px;
   }
+  .hero_head {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(240, 240, 240);
+    line-height: 72px;
+    font-size: 40px;
+    text-align: center;
+  }
+
   .app_head {
     display: grid;
   }
@@ -301,7 +333,7 @@ iframe {
     font-family: Montserrat;
     padding: 20px;
     width: 100%;
-    background-color: red;
+    background-color: dodgerblue;
     margin-top: 50px;
     height: 170px;
     margin-bottom: 100px;
@@ -314,7 +346,7 @@ iframe {
   color: white;
   font-size: 25px;
   font-family: "Instrument Sans", sans-serfif;
-  background-color: red;
+  background-color: dodgerblue;
 }
 .test_hd {
   font-size: 45px;
@@ -329,11 +361,14 @@ iframe {
 .screenshot {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: black;
+  color: white;
 }
+
 @media only screen and (max-width: 450px) {
   .install {
     background-color: black;
-    color: red;
+    color: yellow;
     width: 350px;
     border-radius: 7px;
     height: 80px;
@@ -376,7 +411,7 @@ iframe {
     color: white;
     font-size: 17px;
     font-family: "Instrument Sans", sans-serfif;
-    background-color: red;
+    background-color: dod;
   }
 
   .secre {
@@ -397,7 +432,7 @@ iframe {
 
     padding-top: 20px;
     width: 100%;
-    background-color: red;
+    background-color:rgba(52, 52, 52, 0.403);
     margin-top: 80px;
     color: white;
   }
