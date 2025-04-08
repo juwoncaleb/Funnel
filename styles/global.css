@@ -390,7 +390,7 @@ iframe {
     margin-bottom: 0px;
   }
   .hero_head {
-    font-size: 28px;
+    font-size: 35px;
     line-height: 42px;
     text-align: center;
     font-weight: 600;
@@ -435,5 +435,9 @@ iframe {
     background-color:rgba(52, 52, 52, 0.403);
     margin-top: 80px;
     color: white;
+  }
+  .hero_sub{
+    color: white;
+    font-size: 18px;
   }
 }
