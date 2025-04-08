@@ -5,8 +5,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .h_head {
-  max-width: 900px;
+  max-width: 1100px;
 }
 .hero_head {
   font-family: "Inter", sans-serif;
@@ -43,7 +50,7 @@
   color: red;
 }
 .video {
-  width: 742px;
+  width: 800px;
   max-width: 100%;
   aspect-ratio: 1.7708830548926013;
   display: block;
@@ -58,17 +65,36 @@
   font-weight: 500;
   font-size: 18px;
 }
+.install {
+  background-color: black;
+  color: red;
+  width: 620px;
+  border-radius: 7px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 25px;
+}
 
 .button_bg {
   font-family: Montserrat;
   padding: 20px;
-  width: 500px;
-  background-color: rgba(255, 0, 0, 0.293);
+  width: 800px;
+  background-color: red;
   margin-top: 50px;
-  height: 140px;
+  height: 170px;
   margin-bottom: 100px;
 }
-
+.testimonial_block {
+  font-family: Montserrat;
+  padding: 40px;
+  width: 100%;
+  background-color: red;
+  margin-top: 80px;
+  color: white;
+}
+.vsl_page {
+  background-color: black;
+}
 .Trigger {
   color: white;
 }
@@ -214,6 +240,26 @@ iframe {
 .cautpn {
   max-width: 600px;
 }
+@media only screen and (max-width: 1030px) {
+  .hero_head {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(240, 240, 240);
+    line-height: 72px;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .testimonila_header {
+    font-family: "EB Garamond", serif;
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 50px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .testimonila_header {
     font-family: "EB Garamond", serif;
@@ -251,10 +297,51 @@ iframe {
   .caution {
     display: grid;
   }
+  .button_bg {
+    font-family: Montserrat;
+    padding: 20px;
+    width: 100%;
+    background-color: red;
+    margin-top: 50px;
+    height: 170px;
+    margin-bottom: 100px;
+  }
 }
 
 /* Responsive styles for screens smaller than 450px */
+
+.notice {
+  color: white;
+  font-size: 25px;
+  font-family: "Instrument Sans", sans-serfif;
+  background-color: red;
+}
+.test_hd {
+  font-size: 45px;
+  text-decoration: dashed;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.test_Card {
+  width: 700px;
+}
+.screenshot {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 @media only screen and (max-width: 450px) {
+  .install {
+    background-color: black;
+    color: red;
+    width: 350px;
+    border-radius: 7px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-weight: 500;
+    font-size: 15px;
+  }
   .book {
     height: 270px;
   }
@@ -265,10 +352,10 @@ iframe {
     font-family: "EB Garamond", serif;
     font-size: 38px;
     line-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   .hero_head {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 42px;
     text-align: center;
     font-weight: 600;
@@ -285,16 +372,13 @@ iframe {
     font-family: "Instrument Sans", sans-serfif;
     color: rgb(240, 240, 240);
   }
-
-  .button_bg {
-    padding: 20px;
-    width: 400px;
-    background-color: rgba(255, 0, 0, 0.293);
-    margin-top: 50px;
-    height: 140px;
-    margin-bottom: 100px;
-    font-family: Montserrat;
+  .notice {
+    color: white;
+    font-size: 17px;
+    font-family: "Instrument Sans", sans-serfif;
+    background-color: red;
   }
+
   .secre {
     font-family: "EB Garamond", serif;
     font-size: 35px;
@@ -306,5 +390,15 @@ iframe {
   .cautpn {
     max-width: 600px;
     margin-left: 40px;
+  }
+  .testimonial_block {
+    font-family: Montserrat;
+    padding: 0px !important;
+
+    padding-top: 20px;
+    width: 100%;
+    background-color: red;
+    margin-top: 80px;
+    color: white;
   }
 }
