@@ -16,7 +16,7 @@ export default function LandingPage() {
             <p className="hero_head">
               <span className="salescall">3 Deals Closed Monthly </span> –
               Guaranteed! Never Pay for Marketing Again - Install a{" "}
-              <span className="salescall">LEAD PUMP system</span> Get
+              <span className="salescall">LEAD PUMP system.</span> Get
               Prequalified Leads After We’re Gone! No Monthly Fees, posting on
               Social Media
               <span className="salescall"> Referral-Begging</span>
