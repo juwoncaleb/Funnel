@@ -23,18 +23,21 @@ export default function Review() {
             <span className="salescall">YOU</span>
           </p>
           <div className="relative pt-[45.3%]">
-            <iframe
-              src="https://player.vimeo.com/video/1070872120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-              className="absolute top-0 left-0 w-full h-full"
-              title="Richard"
-              style={{
-                border: "none", // Remove the iframe border
-                maxWidth: "100%", // Ensure responsiveness
-                height: "100%", // Make sure the video takes full height
-              }}
-            ></iframe>
+            <div style={{ padding: "67.24% 0 0 0", position: "relative" }}>
+              <iframe
+                src="https://player.vimeo.com/video/1073649904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&muted=1"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                title="Tyler"
+              ></iframe>
+            </div>
           </div>
           <button onClick={handleScroll} className="next_btn mt-4">
             Book a Call
@@ -43,13 +46,14 @@ export default function Review() {
       </div>
       <div className="rest_review">
         <center>
-          <button className="bord">Who is this for</button>
+          <button className="bord">See you Soon!</button>
         </center>
         <center>
           <div className="broker_ext mt-6 ">
             <p className="text-center">
-              Real estate broker & Brokerage owner, stuck between $100K-$200K in
-              revenue . Looking to close at least 3 Deals monthly
+              This is not a sales call. It is simply a conversation to see if
+              our system will be beneficial for you and if we will be a good fit
+              for each other.
             </p>
           </div>
         </center>
@@ -61,13 +65,14 @@ export default function Review() {
         ></div>
         <center>
           <p className="retainer text-center">
-            No Monthly <span className="importance">PAYMENT</span> - We install this System
+            No Monthly <span className="importance">PAYMENT</span> - We install
+            this System
             <br /> Once{" "}
+            
           </p>
           <button onClick={handleScroll} className="next_btn mt-10 mb-14">
             Book a Call
           </button>{" "}
-
         </center>
         <InfiniteCarousel />
         <div className="caution flex justify-center gap-20">
@@ -75,13 +80,14 @@ export default function Review() {
           <div className="cautpn">
             <p className="secre mb-6">Right to Reservation</p>
             <p className="rese">
-              We take on 5 new clients every 3 months so we can you our full attention and do amazing work.- We{" "}
+              We take on 5 new clients every 3 months so we can you our full
+              attention and do amazing work.- We{" "}
               <span className="chase_bold">CHASE</span> perfection and
               excellence.
             </p>
             <button onClick={handleScroll} className="next_btn mt-10 mb-14">
-            Book a Call
-          </button>{" "}
+              Book a Call
+            </button>{" "}
           </div>
         </div>
 
@@ -138,15 +144,16 @@ export default function Review() {
 
         <div className="w-[70%] h-[400px] bg-[#0C0C0C] flex items-center justify-center mx-auto deal">
           <div className="flex flex-col items-center">
-            <h1 className="text-white text-[40px] text-center font-semibold">
+            <h1 className="text-white text-[20px] md:text-[40px] text-center font-semibold">
               You never have to worry where your next deal is coming from?
             </h1>
             <p className="time">
               Time is money . Let us help you spend it on closing deals!
             </p>
             <button onClick={handleScroll} className="next_btn mt-10 mb-14">
-            Book a Call
-          </button>{" "}          </div>
+              Book a Call
+            </button>{" "}
+          </div>
         </div>
       </div>
     </div>
