@@ -28,7 +28,7 @@ export default function LandingPage() {
           <div className="h_head mt-6">
             <p className="hero_head">
               <span className="salescall">3 Deals Closed Monthly </span> –{" "}
-              Guaranteed! Never Pay for Marketing Again
+              Guaranteed! Never Pay Marketing retainers Again
             </p>
             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
