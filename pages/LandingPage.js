@@ -107,6 +107,7 @@ export default function LandingPage() {
 
           <img className="test_Card" src="./lp.png" alt="testimonial" />
           <img src="./tip1.jpg"/>
+              
           <img className="test_Card" src="./zo.png" alt="testimonial" />
           <img className="test_Card" src="./last.png" alt="testimonial" />
         </div>
