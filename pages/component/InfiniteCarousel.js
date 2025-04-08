@@ -52,7 +52,6 @@ function AutoPlay() {
           style={{
             width: "400px",
             height: "500px",
-            backgroundImage: "url('/ty.avif')",
             backgroundSize: "cover",
             display: "flex",
             justifyContent: "center",
@@ -71,7 +70,6 @@ function AutoPlay() {
           style={{
             width: "400px",
             height: "500px",
-            backgroundImage: "url('/con.avif')",
             backgroundSize: "cover",
             display: "flex",
             justifyContent: "center",
