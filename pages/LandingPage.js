@@ -50,7 +50,7 @@ export default function LandingPage() {
               </p>
               <Link href="./Book">
                 <button className="install mb-14">
-                  Claim your spot - LIMITED SPACE AVAILABLE
+                  CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
                 </button>
               </Link>
             </center>
@@ -105,7 +105,7 @@ export default function LandingPage() {
         <center>
           <Link href="./Book">
             <button className="install mb-6">
-              Claim your spot - LIMITED SPACE AVAILABLE
+              CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
             </button>
           </Link>
         </center>
@@ -136,7 +136,7 @@ export default function LandingPage() {
               </p>
               <Link href="./Book">
                 <button className="install mb-14">
-                  Claim your spot - LIMITED SPACE AVAILABLE
+                  CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
                 </button>
               </Link>
             </center>
