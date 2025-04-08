@@ -23,21 +23,18 @@ export default function Review() {
             <span className="salescall">YOU</span>
           </p>
           <div className="relative pt-[45.3%]">
-            <div style={{ padding: "67.24% 0 0 0", position: "relative" }}>
-              <iframe
-                src="https://player.vimeo.com/video/1073649904?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&muted=1"
-                frameBorder="0"
-                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                }}
-                title="Tyler"
-              ></iframe>
-            </div>
+            <iframe
+              src="https://player.vimeo.com/video/1070872120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+              className="absolute top-0 left-0 w-full h-full"
+              title="Richard"
+              style={{
+                border: "none", // Remove the iframe border
+                maxWidth: "100%", // Ensure responsiveness
+                height: "100%", // Make sure the video takes full height
+              }}
+            ></iframe>
           </div>
           <button onClick={handleScroll} className="next_btn mt-4">
             Book a Call
@@ -68,7 +65,6 @@ export default function Review() {
             No Monthly <span className="importance">PAYMENT</span> - We install
             this System
             <br /> Once{" "}
-            
           </p>
           <button onClick={handleScroll} className="next_btn mt-10 mb-14">
             Book a Call
