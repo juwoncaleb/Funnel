@@ -100,9 +100,11 @@ export default function LandingPage() {
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-4 justify-items-center mt-10 px-4">
           <img className="test_Card" src="./lil.png" alt="testimonial" />
           <img className="test_Card" src="./c1.png" alt="testimonial" />
+          <img src="./tip.jpg"/>
           <img className="test_Card" src="./qw.png" alt="testimonial" />
 
           <img className="test_Card" src="./lp.png" alt="testimonial" />
+          <img src="./tip1.jpg"/>
           <img className="test_Card" src="./zo.png" alt="testimonial" />
           <img className="test_Card" src="./last.png" alt="testimonial" />
         </div>
