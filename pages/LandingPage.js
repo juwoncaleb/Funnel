@@ -8,7 +8,9 @@ export default function LandingPage() {
         <center>
           <p className="notice mb-10">
             <span className="not"> IMPORTANT NOTICE</span>- For real estate
-            agent stuck between $100k-$200k GCI , LOOKING TO SCALE PASS THAT
+            agent stuck between  <span className="bg-yellow-300 text-black px-1 font-bold">
+            $100k-$200k GCI
+          </span>  , LOOKING TO SCALE PASS THAT
           </p>
           <div className="h_head mt-6">
             <p className="hero_head">
