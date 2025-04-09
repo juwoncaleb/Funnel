@@ -128,7 +128,7 @@ export default function LandingPage() {
             <span className="text-white mb-20">TESTIMONIAL SCREENSHOTS </span>
           </p>{" "}
         </center>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center mt-10 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-10 px-4">
           <img className="test_Card" src="./lil.png" alt="testimonial" />
           <img className="test_Card" src="./c1.png" alt="testimonial" />
           <img className="test_Card" src="./qw.png" alt="testimonial" />
