@@ -129,7 +129,6 @@ export default function LandingPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-10 px-4">
           <img className="test_Card" src="./a1.png" alt="testimonial" />
           <img className="test_Card" src="./a2.png" alt="testimonial" />
-          <img className="test_Card" src="./a5.png" alt="testimonial" />
           <img className="test_Card" src="./a6.png" alt="testimonial" />
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
 
