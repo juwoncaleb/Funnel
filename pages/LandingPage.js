@@ -26,13 +26,7 @@ export default function LandingPage() {
             flow & Chasing Referrals{" "}
           </p>
           <div className="h_head mt-6">
-            <p className="hero_head_sub">
-              You Built Your Business
-              <span className="bg-yellow-300 text-black px-1 font-bold">
-                Without Instagram.{" "}
-              </span>
-              Let’s Keep It That Way{" "}
-            </p>
+          
 
             <p className="hero_head">
               Scale to
