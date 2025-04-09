@@ -403,7 +403,7 @@ iframe {
     margin-bottom: 0px;
   }
   .hero_head {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 42px;
     text-align: center;
     font-weight: 600;
@@ -451,6 +451,6 @@ iframe {
   }
   .hero_sub{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
