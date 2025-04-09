@@ -15,6 +15,16 @@ body {
 .h_head {
   max-width: 1100px;
 }
+.hero_head_sub{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(240, 240, 240);
+  line-height: 72px;
+  font-size: 22px;
+  text-align: center;
+}
 .hero_head {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -72,6 +82,7 @@ body {
   border-radius: 7px;
   height: 100px;
   font-weight: 500;
+  padding-left: 0px 10px;
   font-size: 25px;
 }
 .text_under{
@@ -375,6 +386,8 @@ iframe {
     padding-top: 10px;
     padding-bottom: 1px;
     font-weight: 500;
+    padding-left: 0px 10px;
+
     font-size: 15px;
   }
   .book {
