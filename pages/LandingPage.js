@@ -12,20 +12,17 @@ export default function LandingPage() {
 
   return (
     <div className="vsl_page bg-cover bg-center bg-no-repeat min-h-screen ">
-      <div className="floating-div" onClick={scrollToTestimonials}>
-        <p>Testimonials Below</p>
-      </div>
       <div className=" mx-auto text-center">
         <center>
           <p className="notice mb-10">
-            <span className="not"> IMPORTANT NOTICE</span>- For Realtors Tired
+            <span className="not"> WHO IS THIS FOR </span>- For Realtors Tired
             of
             <span className="bg-yellow-300 text-black px-1 font-bold">
               Unpredictable Lead{" "}
             </span>{" "}
             flow & Chasing Referrals{" "}
           </p>
-          <div className="h_head mt-6">
+          <div className="h_head ">
             <p className="hero_head">
               Scale to
               <span className="salescall"> 3+ Deals Monthly </span> — Without
@@ -37,9 +34,8 @@ export default function LandingPage() {
                 Get the <span className="salescall">
                   Lead Pump™ System{" "}
                 </span>{" "}
-                that delivers prequalified buyers & sellers on{" "}
-                <span className="sales">AutoPilot</span>... even after we’re
-                gone.{" "}
+                that delivers Preapproved buyers & Motivated sellers on{" "}
+                <span className="sales">AutoPilot</span>.
                 <span className="text_under">
                   {" "}
                   No Monthly Fees, posting on Social Media
@@ -53,71 +49,15 @@ export default function LandingPage() {
         <center className="mt-10">
           <div className="button_bg">
             <center>
-              <Link href="./Book">
-                <p className="Trigger mb-2">
-                  Do you need Homebuyers and highly motivated HomeSellers today?
-                </p>
+              <Link href="https://tally.so/r/wkkqkZ">
+                <p className=" mb-2"></p>
                 <button className="install mb-14">
-                  CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
+                  GET ACCESS TO LEAD PUMP
                 </button>
               </Link>
             </center>
           </div>
         </center>
-        <div className="flex justify-center mt-10">
-          <div>
-            <iframe
-              className="video"
-              src="https://killerplayer.com/watch/video/7ad7082b-e455-4e0b-ab68-1e7a81012276"
-              frameBorder="0"
-              allow="autoplay; gyroscope; picture-in-picture;"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-        <p className="notice  mt-10">
-          <span className="not">IMPORTANT NOTICE:</span> To avoid{" "}
-          <span className="bg-yellow-300 text-black px-1 font-bold">
-            CANCELLATION
-          </span>{" "}
-          of your appointment, please watch this video. It explains how our
-          system works. We speak with agents who believe our system can help
-          them — so we don’t waste your{" "}
-          <span className="bg-yellow-300 text-black px-1 font-bold">TIME</span>{" "}
-          or ours.
-        </p>
-      </div>
-
-      <div className="testimonial_block" id="testimonials">
-        <center>
-          <p className="testimonila_header rev_head mt-6 text-white">
-            Every successful Agent, we worked with started just like <br />
-            <span className="salescall">YOU</span>
-          </p>
-        </center>
-        <div className="flex justify-center">
-          <div className="relative w-full max-w-3xl">
-            <iframe
-              src="https://player.vimeo.com/video/1070872120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-              frameBorder="0"
-              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-              className="w-full h-full"
-              title="Richard"
-              style={{
-                border: "none", // Remove the iframe border
-                aspectRatio: "16/9", // Maintain the aspect ratio of the video
-              }}
-            ></iframe>
-          </div>
-        </div>
-        <center>
-          <Link href="./Book">
-            <button className="install mb-14">
-              CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
-            </button>
-          </Link>
-        </center>
-        <div></div>
       </div>
 
       <div className="bg-white screenshot">
@@ -126,23 +66,18 @@ export default function LandingPage() {
             <span className="text-white mb-20">TESTIMONIAL SCREENSHOTS </span>
           </p>{" "}
         </center>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-10 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
           <img className="test_Card" src="./a1.png" alt="testimonial" />
           <img className="test_Card" src="./a2.png" alt="testimonial" />
           <img className="test_Card" src="./a6.png" alt="testimonial" />
           <img className="test_Card" src="./luka.jpg" alt="testimonial" />
-
-          <img className="textmessag" src="./typ.jpg" />
         </div>
         <center>
           <div className="button_bg">
             <center>
-              <p className="Trigger mb-2">
-                Do you need Homebuyers and highly motivated HomeSellers today?
-              </p>
-              <Link href="./Book">
+              <Link href="https://tally.so/r/wkkqkZ">
                 <button className="install mb-14">
-                  CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
+                  GET ACCESS TO LEAD PUMP
                 </button>
               </Link>
             </center>
