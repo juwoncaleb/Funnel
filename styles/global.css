@@ -15,7 +15,7 @@ body {
 .h_head {
   max-width: 1100px;
 }
-.hero_head_sub{
+.hero_head_sub {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -57,7 +57,8 @@ body {
 }
 
 .salescall {
-  color: yellow;font-weight: 600;
+  color: yellow;
+  font-weight: 600;
 }
 .video {
   width: 800px;
@@ -85,14 +86,14 @@ body {
   padding-left: 0px 10px;
   font-size: 25px;
 }
-.text_under{
+.text_under {
   text-decoration: underline;
 }
 .floating-div {
   position: fixed;
   bottom: 20px; /* Adjust this value as needed */
-  right: 20px;  /* Adjust this value as needed */
-  background-color: yellow;  /* You can change the background color */
+  right: 20px; /* Adjust this value as needed */
+  background-color: yellow; /* You can change the background color */
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -112,7 +113,7 @@ body {
   font-family: Montserrat;
   padding: 40px;
   width: 100%;
-  background-color:rgba(52, 52, 52, 0.403);
+  background-color: rgba(52, 52, 52, 0.403);
   color: white;
 }
 .vsl_page {
@@ -183,11 +184,11 @@ iframe {
   font-size: 35px;
   margin-bottom: 100px;
 }
-.hero_sub{
+.hero_sub {
   color: white;
   font-size: 20px;
 }
-.hero_sub_div{
+.hero_sub_div {
   max-width: 600px;
 }
 .pastclient {
@@ -195,7 +196,9 @@ iframe {
   border-radius: 10px;
   width: 400px;
 }
-
+.textmessag {
+  height: 650px;
+}
 .clienthead {
   font-size: 25px;
   margin-top: 5px;
@@ -410,9 +413,9 @@ iframe {
     color: rgb(240, 240, 240);
     font-family: "Inter", sans-serif;
   }
-.tts{
-  display: grid !important;
-}
+  .tts {
+    display: grid !important;
+  }
   .warning {
     text-align: center;
     font-size: 15px;
@@ -428,7 +431,11 @@ iframe {
     font-family: "Instrument Sans", sans-serfif;
     background-color: dod;
   }
-
+  .mg {
+    margin-top: 20px;
+    border: 2px solid white;
+  }
+ 
   .secre {
     font-family: "EB Garamond", serif;
     font-size: 35px;
@@ -447,11 +454,11 @@ iframe {
 
     padding-top: 20px;
     width: 100%;
-    background-color:rgba(52, 52, 52, 0.403);
+    background-color: rgba(52, 52, 52, 0.403);
     margin-top: 80px;
     color: white;
   }
-  .hero_sub{
+  .hero_sub {
     color: white;
     font-size: 16px;
   }
