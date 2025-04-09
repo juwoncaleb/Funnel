@@ -363,7 +363,7 @@ iframe {
     width: 100%;
     background-color: dodgerblue;
     margin-top: 50px;
-    height: 170px;
+    height: 150px;
     margin-bottom: 100px;
   }
 }
@@ -441,7 +441,7 @@ iframe {
   }
   .notice {
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     font-family: "Instrument Sans", sans-serfif;
     background-color: dod;
   }
