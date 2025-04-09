@@ -26,8 +26,6 @@ export default function LandingPage() {
             flow & Chasing Referrals{" "}
           </p>
           <div className="h_head mt-6">
-          
-
             <p className="hero_head">
               Scale to
               <span className="salescall"> 3+ Deals Monthly </span> — Without
@@ -36,9 +34,10 @@ export default function LandingPage() {
             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
                 {" "}
-                Get the{" "}
-                <span className="salescall">Lead Pump™ System </span> that
-                delivers prequalified buyers & sellers on{" "}
+                Get the <span className="salescall">
+                  Lead Pump™ System{" "}
+                </span>{" "}
+                that delivers prequalified buyers & sellers on{" "}
                 <span className="sales">AutoPilot</span>... even after we’re
                 gone.{" "}
                 <span className="text_under">
@@ -113,7 +112,6 @@ export default function LandingPage() {
         </div>
         <center>
           <Link href="./Book">
-           
             <button className="install mb-14">
               CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
             </button>
@@ -129,14 +127,13 @@ export default function LandingPage() {
           </p>{" "}
         </center>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-10 px-4">
-          <img className="test_Card" src="./lil.png" alt="testimonial" />
-          <img className="test_Card" src="./c1.png" alt="testimonial" />
-          <img className="test_Card" src="./qw.png" alt="testimonial" />
-          <img className="test_Card" src="./lp.png" alt="testimonial" />
-          <img className="test_Card" src="./zo.png" alt="testimonial" />
-          <img className="test_Card" src="./last.png" alt="testimonial" />
-          <img src="./tip1.jpg" />
-          <img src="./tip.jpg" />
+          <img className="test_Card" src="./a1.png" alt="testimonial" />
+          <img className="test_Card" src="./a2.png" alt="testimonial" />
+          <img className="test_Card" src="./a5.png" alt="testimonial" />
+          <img className="test_Card" src="./a6.png" alt="testimonial" />
+          <img className="test_Card" src="./luka.jpg" alt="testimonial" />
+
+          <img className="textmessag" src="./typ.jpg" />
         </div>
         <center>
           <div className="button_bg">
