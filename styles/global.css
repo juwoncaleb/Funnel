@@ -410,7 +410,9 @@ iframe {
     color: rgb(240, 240, 240);
     font-family: "Inter", sans-serif;
   }
-
+.tts{
+  display: grid !important;
+}
   .warning {
     text-align: center;
     font-size: 15px;
