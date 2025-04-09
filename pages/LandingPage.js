@@ -18,24 +18,39 @@ export default function LandingPage() {
       <div className=" mx-auto text-center">
         <center>
           <p className="notice mb-10">
-            <span className="not"> IMPORTANT NOTICE</span>- For real estate
-            agent stuck between{" "}
+            <span className="not"> IMPORTANT NOTICE</span>- For Realtors Tired
+            of
             <span className="bg-yellow-300 text-black px-1 font-bold">
-              $100k-$200k GCI
+              Unpredictable Lead{" "}
             </span>{" "}
-            , LOOKING TO SCALE PASS THAT
+            flow & Chasing Referrals{" "}
           </p>
           <div className="h_head mt-6">
+            <p className="hero_head_sub">
+              You Built Your Business
+              <span className="bg-yellow-300 text-black px-1 font-bold">
+                Without Instagram.{" "}
+              </span>
+              Let’s Keep It That Way{" "}
+            </p>
+
             <p className="hero_head">
-              <span className="salescall">3 Deals Closed Monthly </span> –{" "}
-              Guaranteed! Never Pay Marketing retainers Again
+              Scale to
+              <span className="salescall"> 3+ Deals Monthly </span> — Without
+              Posting Daily or Wondering Where Your Next Client Will Come From
             </p>
             <div className="hero_sub_div mt-4">
               <p className="hero_sub">
                 {" "}
-                Install a <span className="salescall">LEAD PUMP system</span> Get
-                Prequalified Leads Automatically-Even After We are Gone!
-                <span className="text_under"> No Monthly Fees, posting on Social Media</span>
+                Get the{" "}
+                <span className="salescall">Lead Pump™ System </span> that
+                delivers prequalified buyers & sellers on{" "}
+                <span className="sales">AutoPilot</span>... even after we’re
+                gone.{" "}
+                <span className="text_under">
+                  {" "}
+                  No Monthly Fees, posting on Social Media
+                </span>
                 <span className="salescall text_under"> Referral-Begging</span>
               </p>
             </div>
@@ -45,10 +60,10 @@ export default function LandingPage() {
         <center className="mt-10">
           <div className="button_bg">
             <center>
-              <p className="Trigger mb-2">
-                Do you need Homebuyers and highly motivated HomeSellers today?
-              </p>
               <Link href="./Book">
+                <p className="Trigger mb-2">
+                  Do you need Homebuyers and highly motivated HomeSellers today?
+                </p>
                 <button className="install mb-14">
                   CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
                 </button>
@@ -104,7 +119,8 @@ export default function LandingPage() {
         </div>
         <center>
           <Link href="./Book">
-            <button className="install mb-6">
+           
+            <button className="install mb-14">
               CLAIM YOUR SPOT - LIMITED SPACE AVAILABLE
             </button>
           </Link>
