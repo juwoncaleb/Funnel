@@ -48,6 +48,7 @@ export default function LandingPage() {
 
         <center className="mt-10">
           <div className="button_bg">
+          <p className="qualifier">Usually $997 <span className="free">FREE</span> TODAY</p>
             <center>
               <Link href="https://tally.so/r/wkkqkZ">
                 <p className=" mb-2"></p>
@@ -74,6 +75,8 @@ export default function LandingPage() {
         </div>
         <center>
           <div className="button_bg">
+          <p className="qualifier">Usually $997 <span className="free">FREE</span> TODAY</p>
+
             <center>
               <Link href="https://tally.so/r/wkkqkZ">
                 <button className="install mb-14">
