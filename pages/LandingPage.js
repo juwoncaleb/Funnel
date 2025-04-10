@@ -24,7 +24,7 @@ export default function LandingPage() {
           </p>
           <div className="h_head ">
             <p className="hero_head">
-              Scale to
+              Close
               <span className="salescall"> 3+ Deals Monthly </span> — Without
               Posting Daily or Wondering Where Your Next Client Will Come From
             </p>
