@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import Head from "next/head";
+
 
 export default function LandingPage() {
   const scrollToTestimonials = () => {
@@ -12,6 +14,19 @@ export default function LandingPage() {
 
   return (
     <div className="vsl_page bg-cover bg-center bg-no-repeat min-h-screen ">
+       <Head>
+        <title>Lead Pump™ for Realtors - Get Clients Without Posting Daily</title>
+        <meta property="og:title" content="Close 3 deals momthly without Chasing Referrals" />
+        <meta property="og:description" content="For Realtors tired of chasing referrals — get preapproved buyers & motivated sellers on autopilot. No posting. No retainers." />
+        <meta property="og:image" content="https://ik.imagekit.io/juwoncaleb/image_wamHggfiv.png?updatedAt=1744293661643" />
+        <meta property="og:url" content="https://yourdomain.com" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Lead Pump™ for Realtors - Get Clients Without Posting Daily" />
+        <meta name="twitter:description" content="For Realtors tired of chasing referrals — get preapproved buyers & motivated sellers on autopilot." />
+        <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg" />
+      </Head>
+
       <div className=" mx-auto text-center">
         <center>
           <p className="notice mb-10">
@@ -64,7 +79,7 @@ export default function LandingPage() {
       <div className="bg-white screenshot">
         <center>
           <p className="testimonila_header rev_head text-white text-center">
-            <span className="text-white mb-20">TESTIMONIAL SCREENSHOTS </span>
+            <span className="text-white mb-20">A while back, they had the same issues you’re going through. </span>
           </p>{" "}
         </center>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
