@@ -259,7 +259,14 @@ iframe {
 .book {
   height: 400px;
 }
-
+.qualifier{
+  color: white;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
+}
+.free{
+  text-decoration: underline;
+}
 .secre {
   font-family: "EB Garamond", serif;
   font-size: 50px;
@@ -448,6 +455,12 @@ iframe {
   .mg {
     margin-top: 20px;
     border: 2px solid white;
+  }
+  .AGent_text{
+    font-family: "EB Garamond", serif;
+    font-size: 40px;
+    line-height: 55px;
+   
   }
 
   .secre {
