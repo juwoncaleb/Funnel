@@ -152,8 +152,8 @@ body {
   background-color: rgb(0, 1, 29);
 padding-top: 100px;
 padding-bottom: 100px;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 70px;
+padding-right: 70px;
 }
 
 .review_land {
@@ -452,6 +452,13 @@ iframe {
     font-size: 15px;
     font-family: "Instrument Sans", sans-serfif;
     background-color: dod;
+  }
+  .vsl_div{
+    background-color: rgb(0, 1, 29);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
   }
   .mg {
     margin-top: 20px;
