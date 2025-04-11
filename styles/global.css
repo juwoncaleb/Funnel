@@ -380,7 +380,7 @@ iframe {
 /* Responsive styles for screens smaller than 450px */
 
 .notice {
-  
+  background-color: dodgerblue;
   color: white;
   font-size: 23px;
   font-family: "Instrument Sans", sans-serfif;
@@ -396,7 +396,6 @@ iframe {
   width: 500px;
 }
 .screenshot {
-  padding-top: 40px;
   padding-bottom: 100px;
   background-color: black;
   color: white;
