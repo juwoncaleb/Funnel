@@ -65,7 +65,7 @@ export default function LandingPage() {
           <div className="button_bg">
           <p className="qualifier">Usually $997 <span className="free">FREE</span> TODAY</p>
             <center>
-              <Link href="https://tally.so/r/wkkqkZ">
+              <Link href="https://cal.com/omojuwon/30min">
                 <p className=" mb-2"></p>
                 <button className="install mb-14">
                   GET ACCESS TO LEAD PUMP
@@ -82,6 +82,21 @@ export default function LandingPage() {
             <span className="text-white mb-20">A while back, they had the same issues you’re going through. </span>
           </p>{" "}
         </center>
+        <div className="flex justify-center">
+            <div className="relative w-full max-w-3xl">
+              <iframe
+                src="https://player.vimeo.com/video/1070872120?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                className="w-full h-full"
+                title="Richard"
+                style={{
+                  border: "none", // Remove the iframe border
+                  aspectRatio: "16/9", // Maintain the aspect ratio of the video
+                }}
+              ></iframe>
+            </div>
+          </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-items-center tts mt-14 px-4">
           <img className="test_Card" src="./a1.png" alt="testimonial" />
           <img className="test_Card" src="./a2.png" alt="testimonial" />
@@ -93,7 +108,7 @@ export default function LandingPage() {
           <p className="qualifier">Usually $997 <span className="free">FREE</span> TODAY</p>
 
             <center>
-              <Link href="https://tally.so/r/wkkqkZ">
+              <Link href="https://cal.com/omojuwon/30min">
                 <button className="install mb-14">
                   GET ACCESS TO LEAD PUMP
                 </button>
